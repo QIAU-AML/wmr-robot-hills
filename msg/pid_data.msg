@@ -1,0 +1,12 @@
+float32 UP_REF_M1
+float32 UI_REF_M1
+byte Err_ENcoder_M1_1
+byte Err_ENcoder_M1_2
+byte Err_ENcoder_M1_3
+byte Err_ENcoder_M1_4
+float32 UP_REF_M2
+float32 UI_REF_M2
+byte Err_ENcoder_M2_1
+byte Err_ENcoder_M2_2
+byte Err_ENcoder_M2_3
+byte Err_ENcoder_M2_4

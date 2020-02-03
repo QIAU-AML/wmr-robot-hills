@@ -1,0 +1,9 @@
+byte byte_1
+byte Direction_R
+byte Direction_L
+byte Pulse_MR_LSB
+byte Pulse_MR_MSB
+byte Pulse_ML_LSB
+byte Pulse_ML_MSB
+byte Feed_Dir_R
+byte Feed_Dir_L
