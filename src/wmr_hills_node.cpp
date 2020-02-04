@@ -7,8 +7,7 @@
 
 int main(int argc, char** argv )
 {
-    ros::init(argc, argv, "wmr_hills_node");
-    //LinoBase lino;
+    ros::init(argc, argv, "wmr_hills_node");    
 
     ROS_INFO_STREAM("\n .................... Connecting to robot .................... \n"
                     " Robot ip address: "<<"192.168.1.20"<<"\n"<<
@@ -46,17 +45,6 @@ int main(int argc, char** argv )
     io_serv.stop();
     thread1.join();
     thread2.join();
-
-
-
-//    ros::Rate loop_rate(10);
-
-//    while (ros::ok())
-//    {
-//          ros::spinOnce();
-//          loop_rate.sleep();
-//    }
-
 
     return 0;
 }
